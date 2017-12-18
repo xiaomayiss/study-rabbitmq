@@ -9,13 +9,13 @@ public class ConnectionUtil {
         //定义连接工厂
         ConnectionFactory factory = new ConnectionFactory();
         //设置服务地址
-        factory.setHost("localhost");
+        factory.setHost("192.168.231.6");
         //端口
         factory.setPort(5672);
         //设置账号信息，用户名、密码、vhost
-        factory.setVirtualHost("/taotao");
-        factory.setUsername("taotao");
-        factory.setPassword("taotao");
+        factory.setVirtualHost("/superrd");
+        factory.setUsername("superrd");
+        factory.setPassword("superrd");
         // 通过工程获取连接
         Connection connection = factory.newConnection();
         return connection;
