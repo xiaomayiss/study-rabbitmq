@@ -5,6 +5,10 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.QueueingConsumer;
 import com.xiaomayi.rabbitmq.util.ConnectionUtil;
 
+/**
+ * @author xiaomayi
+ * 最简单的接收消息
+ */
 public class Recv {
 
     private final static String QUEUE_NAME = "test_queue";
